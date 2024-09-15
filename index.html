@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+    <title>Cookie Clicker</title>
+  </head>
+  <body>
+    <h1>Cookie Clicker Game!</h1>
+    <div>
+      <form id="form">
+        <p id="cookie-total">0</p>
+      </form>
+      <button onclick="myCookieButton()">Click Me!</button>
+    </div>
+
+    <div id="cookie-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Cost</th>
+            <th>Increase</th>
+            <th>Buy</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Auto-Clicker</td>
+            <td>100</td>
+            <td>1</td>
+            <td>
+              <button id="buy-button1">Buy</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Enhanced Oven</td>
+            <td>500</td>
+            <td>5</td>
+            <td>
+              <button id="buy-button2">Buy</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Cookie Farm</td>
+            <td>1000</td>
+            <td>10</td>
+            <td>
+              <button id="buy-button3">Buy</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Robot Baker</td>
+            <td>2000</td>
+            <td>20</td>
+            <td>
+              <button id="buy-button4">Buy</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Cookie Factory</td>
+            <td>5000</td>
+            <td>50</td>
+            <td>
+              <button class="buy-button5">Buy</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>
+        <button type="reset" id="reset-button">Reset Button</button>
+        <p id="log"></p>
+      </h2>
+    </div>
+  </body>
+</html>

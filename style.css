@@ -1,0 +1,41 @@
+* {
+  font-family: monospace;
+  background-color: white;
+  font-size: 40px;
+}
+
+table,
+th,
+td {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid;
+}
+
+#cookie-button {
+  display: block;
+  margin: auto;
+  height: 200%;
+  border-radius: 50%;
+  border: 5px solid green;
+}
+
+#cookie-total {
+  position: relative;
+  text-align: center;
+}
+
+#reset-button {
+  position: relative;
+  justify-content: baseline;
+  position: relative;
+}
+
+@media (min-width: 100%) {
+  .image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
